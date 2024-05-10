@@ -30,100 +30,95 @@ export interface linkGroup {
 
 export const links: linkGroup[] = [
   {
-    title: "Reddit",
+    title: "Free Time",
     links: [
       {
-        label: "r/startpages",
-        value: "https://www.reddit.com/r/startpages/",
+        label: "Youtube",
+        value: "https://www.youtube.com/",
       },
       {
-        label: "r/unixporn",
-        value: "https://www.reddit.com/r/unixporn/",
-      },
-      {
-        label: "r/rainmeter",
-        value: "https://www.reddit.com/r/rainmeter/",
-      },
-      {
-        label: "r/AnimalsBeingDerps",
-        value: "https://www.reddit.com/r/AnimalsBeingDerps/",
-      },
-    ],
-  },
-  {
-    title: "3D Modelling",
-    links: [
-      {
-        label: "Blender",
-        value: "https://www.blender.org/",
-      },
-      {
-        label: "BlenderGuru",
-        value: "https://www.blenderguru.com/",
-      },
-      {
-        label: "Poliigon",
-        value: "https://www.poliigon.com/",
-      },
-      {
-        label: "Blender tutorial",
+        label: "Music",
         value:
-          "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
+          "https://music.youtube.com/playlist?list=PLNnbFaxJWMUGWZS2_hVHV9YlJNAZbk692",
       },
       {
-        label: "The other Blender tutorial",
-        value:
-          "https://www.youtube.com/watch?v=bpvh-9H8S1g&list=PL8eKBkZzqDiU-qcoaghCz04sMitC1yx6k&index=1",
-      },
-    ],
-  },
-  {
-    title: "Design",
-    links: [
-      {
-        label: "PixlrX",
-        value: "https://pixlr.com/x/",
+        label: "Reddit",
+        value: "https://www.reddit.com/",
       },
       {
-        label: "AI Image Enlarger",
-        value: "https://bigjpg.com/en",
-      },
-      {
-        label: "Img to Svg Converter",
-        value: "https://picsvg.com/",
-      },
-      {
-        label: "Affinity",
-        value: "https://affinity.serif.com/en-us/tutorials/designer/desktop/",
-      },
-      {
-        label: "Affinity - YT",
-        value: "https://www.youtube.com/c/AffinityRevolution/playlists",
+        label: "Twitch",
+        value: "https://www.twitch.tv/",
       },
     ],
   },
   {
-    title: "Music",
+    title: "Socials",
     links: [
       {
-        label: "i wanna be a cowboy",
-        value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
+        label: "Github",
+        value: "https://github.com/",
       },
       {
-        label: "let the bodies hit the floor",
-        value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
+        label: "Pixiv",
+        value: "https://www.pixiv.net/en/",
       },
       {
-        label: "Nobody Kanna Cross It",
+        label: "BlueSky",
+        value: "https://bsky.app/",
+      },
+    ],
+  },
+  {
+    title: "Services",
+    links: [
+      {
+        label: "SABnzbd",
+        value: "http://127.0.0.1:8080/sabnzbd/",
+      },
+      {
+        label: "Pihole",
+        value: "http://pihole.home/admin",
+      },
+      {
+        label: "VirusTotal",
+        value: "https://www.virustotal.com/gui/home/upload",
+      },
+      {
+        label: "Draw.io",
+        value: "https://app.diagrams.net/",
+      },
+      {
+        label: "Wireframe.cc",
+        value: "https://wireframe.cc/",
+      },
+    ],
+  },
+  {
+    title: "Yu-Gi-Oh",
+    links: [
+      {
+        label: "r/YuGiOh",
+        value: "https://www.reddit.com/r/yugioh/new/",
+      },
+      {
+        label: "Cardmarket",
+        value: "https://www.cardmarket.com/de/YuGiOh",
+      },
+      {
+        label: "Card Cluster",
         value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
       },
       {
-        label: "Smug Dancin",
-        value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
+        label: "Ban List",
+        value: "https://www.yugioh-card.com/en/limited/",
       },
       {
-        label: "Utamaru - The Sanctified Mind Cover",
-        value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
+        label: "TCG Meta",
+        value: "https://beta.yugiohmeta.com/",
+      },
+      {
+        label: "Master Duel Meta",
+        value: "https://www.masterduelmeta.com/",
       },
     ],
   },
